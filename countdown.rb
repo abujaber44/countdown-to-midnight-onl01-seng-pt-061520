@@ -11,8 +11,4 @@ return "HAPPY NEW YEAR!"
 
 end 
 
-loop do
-  t = Time.now
-  countdown(5)
-  sleep(t + 1 - Time.now)
-end
+ 
